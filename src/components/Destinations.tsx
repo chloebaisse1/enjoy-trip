@@ -1,7 +1,6 @@
 import { motion } from "framer-motion"
-import { useInView } from "react-intersection-observer"
-
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import { useInView } from "react-intersection-observer"
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 import BaliImage from "../assets/bali.jpg"
@@ -10,8 +9,8 @@ import MaldivesImage from "../assets/maldives.jpg"
 import SantoriniImage from "../assets/santorini.jpg"
 import SeychellesImage from "../assets/seychelles.jpg"
 
+// import Swiper and modules styles
 import "swiper/css"
-import "swiper/css/effect-coverflow"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 
